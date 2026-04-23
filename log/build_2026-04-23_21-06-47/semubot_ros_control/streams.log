@@ -1,0 +1,107 @@
+[0.518s] Invoking command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control
+[0.552s] -- The C compiler identification is GNU 13.3.0
+[0.592s] -- The CXX compiler identification is GNU 13.3.0
+[0.604s] -- Detecting C compiler ABI info
+[0.661s] -- Detecting C compiler ABI info - done
+[0.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.673s] -- Detecting C compile features
+[0.673s] -- Detecting C compile features - done
+[0.681s] -- Detecting CXX compiler ABI info
+[0.748s] -- Detecting CXX compiler ABI info - done
+[0.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.755s] -- Detecting CXX compile features
+[0.755s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.855s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.926s] -- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.956s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.966s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.156s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.188s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.190s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.209s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.242s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.245s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.256s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.258s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.264s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.498s] -- Found controller_interface: 4.44.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.510s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.543s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[1.635s] -- Configuring done (1.1s)
+[1.661s] -- Generating done (0.0s)
+[1.667s] -- Build files have been written to: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control
+[1.677s] Invoked command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control
+[1.678s] Invoking command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control -- -j12 -l12
+[1.714s] [ 25%] [32mBuilding CXX object CMakeFiles/semubot_hardware_interface.dir/src/semubot_hardware_interface.cpp.o[0m
+[1.721s] [ 50%] [32mBuilding CXX object CMakeFiles/semubot_velocity_controller.dir/src/semubot_velocity_controller.cpp.o[0m
+[3.767s] [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/src/semubot_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn semubot_hardware_interface::SemubotHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[3.767s] [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/src/semubot_hardware_interface.cpp:12:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.767s]    12 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K !=
+[3.767s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.767s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[3.767s]                  from [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/include/semubot_hardware_interface.hpp:10[m[K,
+[3.768s]                  from [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/src/semubot_hardware_interface.cpp:1[m[K:
+[3.768s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.768s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[3.768s]       |                          [01;36m[K^~~~~~~[m[K
+[4.784s] [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/src/semubot_velocity_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type semubot_velocity_controller::SemubotVelocityController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.785s] [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/src/semubot_velocity_controller.cpp:193:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.785s]   193 |     [01;35m[Kcommand_interfaces_[i].set_value(output[i])[m[K;
+[4.785s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.785s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[4.785s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[4.785s]                  from [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/include/semubot_velocity_controller.hpp:10[m[K,
+[4.785s]                  from [01m[K/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_ros_control/src/semubot_velocity_controller.cpp:1[m[K:
+[4.785s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:117:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.785s]   117 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[4.785s]       |                      [01;36m[K^~~~~~~~~[m[K
+[8.318s] [ 75%] [32m[1mLinking CXX shared library libsemubot_hardware_interface.so[0m
+[8.582s] [ 75%] Built target semubot_hardware_interface
+[12.116s] [100%] [32m[1mLinking CXX shared library libsemubot_velocity_controller.so[0m
+[12.573s] [100%] Built target semubot_velocity_controller
+[12.578s] Invoked command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control -- -j12 -l12
+[12.579s] Invoking command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control
+[12.583s] -- Install configuration: ""
+[12.584s] -- Execute custom install script
+[12.584s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control//semubot_hardware_interface_plugin.xml
+[12.589s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control//semubot_velocity_controller_plugin.xml
+[12.594s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/include/omni_robot_control/semubot_hardware_interface.hpp
+[12.603s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/include/omni_robot_control/semubot_velocity_controller.hpp
+[12.621s] -- Up-to-date symlink: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/semubot_hardware_interface_plugin.xml
+[12.621s] -- Up-to-date symlink: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/semubot_velocity_controller_plugin.xml
+[12.622s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control//launch/semubot_control.launch.py
+[12.645s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control//config/joy_config.yaml
+[12.668s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control//config/semubot_controllers.yaml
+[12.691s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/environment/library_path.sh
+[12.714s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/environment/library_path.dsv
+[12.737s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/ament_index/resource_index/package_run_dependencies/semubot_ros_control
+[12.760s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/ament_index/resource_index/parent_prefix_path/semubot_ros_control
+[12.783s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/environment/ament_prefix_path.sh
+[12.805s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/environment/ament_prefix_path.dsv
+[12.828s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/environment/path.sh
+[12.851s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/environment/path.dsv
+[12.874s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/local_setup.bash
+[12.898s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/local_setup.sh
+[12.920s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/local_setup.zsh
+[12.943s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/local_setup.dsv
+[12.967s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/package.dsv
+[12.990s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/ament_index/resource_index/packages/semubot_ros_control
+[13.013s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/semubot_ros_control
+[13.036s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/ament_index/resource_index/controller_interface__pluginlib__plugin/semubot_ros_control
+[13.059s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/ament_cmake_export_targets-extras.cmake
+[13.082s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.105s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/semubot_ros_controlConfig.cmake
+[13.129s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/semubot_ros_controlConfig-version.cmake
+[13.152s] -- Symlinking: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/package.xml
+[13.175s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/lib/libsemubot_hardware_interface.so
+[13.186s] -- Set non-toolchain portion of runtime path of "/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/lib/libsemubot_hardware_interface.so" to ""
+[13.187s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/lib/libsemubot_velocity_controller.so
+[13.201s] -- Set non-toolchain portion of runtime path of "/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/lib/libsemubot_velocity_controller.so" to ""
+[13.201s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/export_omni_robot_controlExport.cmake
+[13.202s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/export_omni_robot_controlExport-noconfig.cmake
+[13.207s] Invoked command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control

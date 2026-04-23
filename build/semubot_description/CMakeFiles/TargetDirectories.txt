@@ -1,0 +1,9 @@
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/uninstall.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/semubot_description_uninstall.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/test.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/edit_cache.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/rebuild_cache.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/list_install_components.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/install.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/install/local.dir
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/CMakeFiles/install/strip.dir

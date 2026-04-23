@@ -1,0 +1,2 @@
+[console_scripts]
+eye_controller = semubot_eyes.eye_controller:main

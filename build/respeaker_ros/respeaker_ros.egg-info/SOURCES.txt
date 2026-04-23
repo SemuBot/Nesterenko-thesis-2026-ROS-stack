@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+resource/respeaker_ros
+respeaker_ros/__init__.py
+respeaker_ros/audio.py
+respeaker_ros/interface.py
+respeaker_ros/parameters.py
+respeaker_ros/respeaker_node.py
+respeaker_ros/util.py
+respeaker_ros.egg-info/PKG-INFO
+respeaker_ros.egg-info/SOURCES.txt
+respeaker_ros.egg-info/dependency_links.txt
+respeaker_ros.egg-info/entry_points.txt
+respeaker_ros.egg-info/requires.txt
+respeaker_ros.egg-info/top_level.txt

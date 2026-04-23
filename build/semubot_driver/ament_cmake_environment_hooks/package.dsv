@@ -1,0 +1,4 @@
+source;share/semubot_driver/local_setup.bash
+source;share/semubot_driver/local_setup.dsv
+source;share/semubot_driver/local_setup.sh
+source;share/semubot_driver/local_setup.zsh

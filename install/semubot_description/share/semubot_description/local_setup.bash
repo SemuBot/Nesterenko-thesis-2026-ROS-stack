@@ -1,0 +1,1 @@
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description/ament_cmake_environment_hooks/local_setup.bash

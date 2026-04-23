@@ -1,0 +1,9 @@
+source;share/semubot_eyes/hook/pythonpath.ps1
+source;share/semubot_eyes/hook/pythonpath.dsv
+source;share/semubot_eyes/hook/pythonpath.sh
+source;share/semubot_eyes/hook/ament_prefix_path.ps1
+source;share/semubot_eyes/hook/ament_prefix_path.dsv
+source;share/semubot_eyes/hook/ament_prefix_path.sh
+source;../../build/semubot_eyes/share/semubot_eyes/hook/pythonpath_develop.ps1
+source;../../build/semubot_eyes/share/semubot_eyes/hook/pythonpath_develop.dsv
+source;../../build/semubot_eyes/share/semubot_eyes/hook/pythonpath_develop.sh

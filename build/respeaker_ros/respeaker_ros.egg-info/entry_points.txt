@@ -1,0 +1,2 @@
+[console_scripts]
+respeaker_node = respeaker_ros.respeaker_node:main

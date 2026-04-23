@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating respeaker_ros.egg-info
+writing respeaker_ros.egg-info/PKG-INFO
+writing dependency_links to respeaker_ros.egg-info/dependency_links.txt
+writing entry points to respeaker_ros.egg-info/entry_points.txt
+writing requirements to respeaker_ros.egg-info/requires.txt
+writing top-level names to respeaker_ros.egg-info/top_level.txt
+writing manifest file 'respeaker_ros.egg-info/SOURCES.txt'
+reading manifest file 'respeaker_ros.egg-info/SOURCES.txt'
+writing manifest file 'respeaker_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/lib/python3.12/site-packages/respeaker-ros.egg-link (link to .)
+Installing respeaker_node script to /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/lib/respeaker_ros
+
+Installed /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/respeaker_ros
+running symlink_data
+symbolically linking /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/respeaker_ros/package.xml -> /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/share/respeaker_ros
+creating /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/share/ament_index
+creating /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/share/ament_index/resource_index
+creating /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/share/ament_index/resource_index/packages
+symbolically linking /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/respeaker_ros/resource/respeaker_ros -> /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/respeaker_ros/share/ament_index/resource_index/packages

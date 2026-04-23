@@ -1,0 +1,4 @@
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/lib/libsemubot_hardware_interface.so
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/lib/libsemubot_velocity_controller.so
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/export_omni_robot_controlExport.cmake
+/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_ros_control/share/semubot_ros_control/cmake/export_omni_robot_controlExport-noconfig.cmake
