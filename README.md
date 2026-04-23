@@ -3,8 +3,6 @@
  
 ## Demo GIF Gallery (from SemuBot repos)
  
-> If a GIF doesn't load, check branch name (`main` vs `master`) and file path.
- 
 ### semubot_eyes
 <p>
   <img alt="semubot_eyes demo" src="https://raw.githubusercontent.com/SemuBot/semubot_eyes/main/path/to/eyes_demo.gif" width="420" />
