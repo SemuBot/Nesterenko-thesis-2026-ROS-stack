@@ -1,1 +1,0 @@
-/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_driver/ament_cmake_environment_hooks/local_setup.zsh

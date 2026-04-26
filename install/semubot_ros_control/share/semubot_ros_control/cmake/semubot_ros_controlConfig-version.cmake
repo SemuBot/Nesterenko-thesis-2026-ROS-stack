@@ -1,1 +1,0 @@
-/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_ros_control/ament_cmake_core/semubot_ros_controlConfig-version.cmake

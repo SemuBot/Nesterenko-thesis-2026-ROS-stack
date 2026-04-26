@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_driver/driver_node" "TARGETS" "driver_node" "DESTINATION" "lib/semubot_driver")

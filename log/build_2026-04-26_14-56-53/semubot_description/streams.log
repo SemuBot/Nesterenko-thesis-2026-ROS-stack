@@ -1,0 +1,55 @@
+[0.014s] Invoking command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_description -DCMAKE_INSTALL_PREFIX=/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description
+[0.310s] -- The C compiler identification is GNU 13.3.0
+[0.588s] -- The CXX compiler identification is GNU 13.3.0
+[0.651s] -- Detecting C compiler ABI info
+[0.895s] -- Detecting C compiler ABI info - done
+[0.928s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.934s] -- Detecting C compile features
+[0.936s] -- Detecting C compile features - done
+[0.963s] -- Detecting CXX compiler ABI info
+[1.244s] -- Detecting CXX compiler ABI info - done
+[1.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.279s] -- Detecting CXX compile features
+[1.281s] -- Detecting CXX compile features - done
+[1.295s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.674s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.055s] -- Configuring done (2.0s)
+[2.058s] -- Generating done (0.0s)
+[2.062s] -- Build files have been written to: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description
+[2.071s] Invoked command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_description -DCMAKE_INSTALL_PREFIX=/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description
+[2.075s] Invoking command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description -- -j12 -l12
+[2.178s] Invoked command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description -- -j12 -l12
+[2.203s] Invoking command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description
+[2.228s] -- Install configuration: ""
+[2.228s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/launch
+[2.229s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/launch/display_robot.launch.py
+[2.230s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes
+[2.230s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/head_base.stl
+[2.265s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/head_scalp.stl
+[2.270s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/right_hand.stl
+[2.272s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/movement_frame.stl
+[2.320s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/left_hand.stl
+[2.322s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/body.stl
+[2.343s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/omni_ball.stl
+[2.379s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/head_screen.stl
+[2.380s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/urdf
+[2.380s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/urdf/semubot.urdf.xacro
+[2.380s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/urdf/head.urdf.xacro
+[2.380s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/config
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/config/semubot_description.rviz
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/ament_index/resource_index/package_run_dependencies/semubot_description
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/ament_index/resource_index/parent_prefix_path/semubot_description
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/ament_prefix_path.sh
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/ament_prefix_path.dsv
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/path.sh
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/path.dsv
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.bash
+[2.381s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.sh
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.zsh
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.dsv
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/package.dsv
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/ament_index/resource_index/packages/semubot_description
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/cmake/semubot_descriptionConfig.cmake
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/cmake/semubot_descriptionConfig-version.cmake
+[2.382s] -- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/package.xml
+[2.383s] Invoked command in '/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description

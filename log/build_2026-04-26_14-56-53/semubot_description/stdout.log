@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/build/semubot_description
+-- Install configuration: ""
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/launch
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/launch/display_robot.launch.py
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/head_base.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/head_scalp.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/right_hand.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/movement_frame.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/left_hand.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/body.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/omni_ball.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/meshes/head_screen.stl
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/urdf
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/urdf/semubot.urdf.xacro
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/urdf/head.urdf.xacro
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/config
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/config/semubot_description.rviz
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/ament_index/resource_index/package_run_dependencies/semubot_description
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/ament_index/resource_index/parent_prefix_path/semubot_description
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/ament_prefix_path.sh
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/path.sh
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/environment/path.dsv
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.bash
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.sh
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.zsh
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/local_setup.dsv
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/package.dsv
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/ament_index/resource_index/packages/semubot_description
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/cmake/semubot_descriptionConfig.cmake
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/cmake/semubot_descriptionConfig-version.cmake
+-- Installing: /home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/install/semubot_description/share/semubot_description/package.xml

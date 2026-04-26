@@ -1,1 +1,0 @@
-/home/mykyta-nesterenko/Nesterenko-thesis-2026-ROS-stack/src/semubot_driver/include/semubot_driver/hardware.hpp
