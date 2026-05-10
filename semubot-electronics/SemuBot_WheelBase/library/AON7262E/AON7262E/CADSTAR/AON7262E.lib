@@ -1,0 +1,16 @@
+.AON7262E :1 ;N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)
+AON7262E
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4" 9="D_5" 10="D_6" 11="D_7"
+*MXP 11
+*DFN AON7262E
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Alpha & Omega Semiconductors)
+~!Manufacturer_Part_Number (AON7262E)
+~!Link Datasheet (https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf)
+~!Height (0.9mm)
+~!3D_Model (AON7262E)
+AON7262E
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

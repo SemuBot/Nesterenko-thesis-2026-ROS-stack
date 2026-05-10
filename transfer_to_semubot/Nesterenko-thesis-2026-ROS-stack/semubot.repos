@@ -1,0 +1,25 @@
+repositories:
+  semubot_bringup:
+    type: git
+    url: https://github.com/SemuBot/semubot_bringup.git
+    version: main
+  semubot_description:
+    type: git
+    url: https://github.com/SemuBot/semubot_description.git
+    version: main
+  semubot_driver:
+    type: git
+    url: https://github.com/SemuBot/semubot_driver.git
+    version: main
+  semubot_ros_control:
+    type: git
+    url: https://github.com/SemuBot/semubot_ros_control.git
+    version: main
+  semubot_eyes:
+    type: git
+    url: https://github.com/SemuBot/semubot_eyes.git
+    version: main
+  respeaker_ros:
+    type: git
+    url: https://github.com/SemuBot/respeaker_ros.git
+    version: main

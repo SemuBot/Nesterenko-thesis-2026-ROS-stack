@@ -1,0 +1,200 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NCP164CSN330T1G" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (id 0) (at 26.67 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "NCP164CSN330T1G" (id 1) (at 26.67 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "NCP164CSN330T1G:SOT95P275X110-5N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER_NAME" "ON Semiconductor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "ON Semiconductor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP164CSN330T1G?qs=xZ%2FP%252Ba9zWqbi%2FAyy5UtoRw%3D%3D" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "LDO Regulator Pos 3.3V 0.3A 5-Pin TSOP T/R" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUSER_PART_NUMBER" "863-NCP164CSN330T1G" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "TSOP-5 ON Semiconductor" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/NCP164CSN330T1G/Onsemi/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "HEIGHT" "1.1mm" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP164CSN330T1G/Onsemi/view-part/?ref=snap" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "NCP164CSN330T1G" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output  300mA 5-TSOP\n                        \n" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "NCP164CSN330T1G" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "NCP164CSN330T1G_0_0"
+      (polyline
+        (pts (xy 5.08 2.54) (xy 6.477 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 2.54) (xy 8.382 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 8.89 2.54) (xy 10.287 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.795 2.54) (xy 12.192 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 12.7 2.54) (xy 14.097 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 14.605 2.54) (xy 16.002 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 16.51 2.54) (xy 17.907 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 18.415 2.54) (xy 19.812 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 20.32 2.54) (xy 21.717 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 22.225 2.54) (xy 23.622 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 24.13 2.54) (xy 25.4 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 -7.62) (xy 25.4 -6.223)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 -5.715) (xy 25.4 -4.318)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 -3.81) (xy 25.4 -2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 -1.905) (xy 25.4 -0.508)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 0.0) (xy 25.4 1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 1.905) (xy 25.4 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 25.4 -7.62) (xy 24.003 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 23.495 -7.62) (xy 22.098 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 21.59 -7.62) (xy 20.193 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.685 -7.62) (xy 18.288 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.78 -7.62) (xy 16.383 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 15.875 -7.62) (xy 14.478 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 13.97 -7.62) (xy 12.573 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 12.065 -7.62) (xy 10.668 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 -7.62) (xy 8.763 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 8.255 -7.62) (xy 6.858 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.35 -7.62) (xy 5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 5.08 1.143)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 0.635) (xy 5.08 -0.762)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -1.27) (xy 5.08 -2.667)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -3.175) (xy 5.08 -4.572)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 -6.477)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -6.985) (xy 5.08 -7.62)) (stroke (width 0.254))
+      )
+      (pin bidirectional line (at 0.0 0.0 0) (length 5.08)
+        (name "IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 -2.54 0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 -5.08 0) (length 5.08)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 30.48 0.0 180.0) (length 5.08)
+        (name "PG/ADJ"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 30.48 -2.54 180.0) (length 5.08)
+        (name "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

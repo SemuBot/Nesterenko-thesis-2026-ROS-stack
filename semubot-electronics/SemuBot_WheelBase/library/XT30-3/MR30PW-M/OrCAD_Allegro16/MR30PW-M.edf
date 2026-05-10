@@ -1,0 +1,127 @@
+
+(EDIF
+  (rename &MR30PW_M "MR30PW_M")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 10 17 15 18 36)
+      (dataOrigin "8971494/1257230/2.50/5/3/Connector")
+      (program "SamacSys ECAD Model MR30PW_M"
+        (version "2.3"))))
+  (library
+  (rename &MR30PW_M "MR30PW_M")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &MR30PW_M "MR30PW_M")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "MR30PW_M"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "MR30PWM"))
+          (property (rename &TME_Electronic_Components_Part_Number "TME Electronic Components Part Number") (string ""))
+          (property (rename &TME_Electronic_Components_Price_Stock "TME Electronic Components Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Amass"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "MR30PW-M"))
+          (property (rename &Description "Description") (string "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf"))
+          (property (rename &Height "Height") (string "5.3 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "MR30PW_M"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &MH1 "MH1")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &MH2 "MH2")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &MH1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -100) (pt 700 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -100))))
+            )
+            (portImplementation
+              (name &MH2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -200) (pt 700 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 500 0)
+                  (pt 500 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 30))))
+          )
+        )
+      )
+    )
+  )
+)

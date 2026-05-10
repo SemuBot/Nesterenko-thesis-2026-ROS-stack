@@ -1,0 +1,168 @@
+# Nav2 mock integration configuration for SemuBot.
+# This configuration is intentionally conservative for architecture validation.
+# TODO(semubot): tune all motion/localization parameters for real hardware.
+
+amcl:
+  ros__parameters:
+    use_sim_time: false
+    base_frame_id: base_link
+    odom_frame_id: odom
+    global_frame_id: map
+    scan_topic: /scan
+    # map->odom is mocked separately in this phase.
+    tf_broadcast: false
+    set_initial_pose: true
+    always_reset_initial_pose: false
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+    # TODO(semubot): validate AMCL model/noise parameters with real sensor logs.
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+    transform_tolerance: 0.3
+    # TODO(semubot): validate BT plugin set for SemuBot mission profiles.
+
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 10.0
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.001
+    min_theta_velocity_threshold: 0.001
+    controller_plugins: ["FollowPath"]
+    # TODO(semubot): update footprint/radius to measured robot geometry.
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+      max_vel_x: 0.10
+      min_vel_x: 0.0
+      max_vel_y: 0.0
+      max_vel_theta: 0.30
+      min_speed_xy: 0.0
+      max_speed_xy: 0.10
+      min_speed_theta: 0.0
+      acc_lim_x: 0.20
+      decel_lim_x: -0.20
+      acc_lim_y: 0.0
+      decel_lim_y: 0.0
+      acc_lim_theta: 0.40
+      decel_lim_theta: -0.40
+      xy_goal_tolerance: 0.25
+      trans_stopped_velocity: 0.05
+      stateful: true
+      critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
+      # TODO(semubot): validate motion/critic tuning with real base dynamics.
+
+planner_server:
+  ros__parameters:
+    use_sim_time: false
+    expected_planner_frequency: 1.0
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.5
+      use_astar: false
+      allow_unknown: true
+      # TODO(semubot): tune planner resolution and unknown-space policy.
+
+behavior_server:
+  ros__parameters:
+    use_sim_time: false
+    local_costmap_topic: local_costmap/costmap_raw
+    global_costmap_topic: global_costmap/costmap_raw
+    local_footprint_topic: local_costmap/published_footprint
+    global_footprint_topic: global_costmap/published_footprint
+    cycle_frequency: 10.0
+    behavior_plugins: ["spin", "backup", "wait"]
+    spin:
+      plugin: "nav2_behaviors/Spin"
+    backup:
+      plugin: "nav2_behaviors/BackUp"
+    wait:
+      plugin: "nav2_behaviors/Wait"
+    global_frame: map
+    robot_base_frame: base_link
+    transform_tolerance: 0.3
+    # TODO(semubot): validate behavior safety envelope on real robot.
+
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: false
+    loop_rate: 20
+    stop_on_failure: false
+    # TODO(semubot): add mission-specific waypoint task plugins.
+
+map_server:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: ""
+    # Map file is passed from launch argument in this phase.
+    # TODO(semubot): provide validated lab map for real localization tests.
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      use_sim_time: false
+      global_frame: map
+      robot_base_frame: base_link
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      resolution: 0.05
+      track_unknown_space: true
+      # Robot description uses detailed visual meshes, but navigation uses simplified footprint.
+      footprint: "[[0.23, 0.19], [0.23, -0.19], [-0.23, -0.19], [-0.23, 0.19]]"
+      plugins: ["static_layer", "inflation_layer"]
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.45
+      # TODO(semubot): validate footprint and inflation settings.
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      use_sim_time: false
+      global_frame: odom
+      robot_base_frame: base_link
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      rolling_window: true
+      width: 6.0
+      height: 6.0
+      resolution: 0.05
+      # Keep local and global footprint consistent for stable planning behavior.
+      footprint: "[[0.23, 0.19], [0.23, -0.19], [-0.23, -0.19], [-0.23, 0.19]]"
+      plugins: ["obstacle_layer", "inflation_layer"]
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        observation_sources: scan
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+          data_type: "LaserScan"
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.45
+      # TODO(semubot): validate scan quality and obstacle filtering.
+
+lifecycle_manager_navigation:
+  ros__parameters:
+    use_sim_time: false
+    autostart: false
+    node_names:
+      - map_server
+      - amcl
+      - planner_server
+      - controller_server
+      - behavior_server
+      - bt_navigator
+      - waypoint_follower

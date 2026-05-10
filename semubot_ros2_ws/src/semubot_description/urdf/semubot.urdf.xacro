@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="semubot">
+
+  <xacro:include filename="$(find semubot_description)/urdf/materials.xacro"/>
+  <xacro:include filename="$(find semubot_description)/urdf/macros/base.xacro"/>
+  <xacro:include filename="$(find semubot_description)/urdf/macros/torso.xacro"/>
+  <xacro:include filename="$(find semubot_description)/urdf/macros/head.xacro"/>
+  <xacro:include filename="$(find semubot_description)/urdf/macros/arms.xacro"/>
+  <xacro:include filename="$(find semubot_description)/urdf/macros/sensors.xacro"/>
+
+  <!--
+    Important TF note for navigation readiness:
+    - base_footprint and base_link are defined in URDF.
+    - odom -> base_link and map -> odom must be dynamic transforms from localization/odometry nodes,
+      not fixed joints in URDF.
+  -->
+  <xacro:semubot_base/>
+  <xacro:semubot_torso parent="base_link"/>
+  <xacro:semubot_head parent="torso_link" xyz="0 0 0.705"/>
+  <xacro:semubot_arms parent="torso_link"/>
+  <xacro:semubot_sensors parent="torso_link"/>
+
+</robot>

@@ -1,0 +1,15 @@
+.MR30PW-M :1 ;Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C
+MR30PWM
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="MH1" 5="MH2"
+*MXP 5
+*DFN MR30PW-M
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Amass)
+~!Manufacturer_Part_Number (MR30PW-M)
+~!Link Datasheet (https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf)
+~!Height (5.3mm)
+MR30PW-M
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

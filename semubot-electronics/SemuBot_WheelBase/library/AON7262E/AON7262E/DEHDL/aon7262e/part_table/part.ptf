@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AON7262E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Alpha & Omega Semiconductors", "AON7262E" (!) = "", "AON7262E", "Other", "", "", "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)", "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf", "0.9 mm"
+END_PART
+
+END.

@@ -1,0 +1,169 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MR30PW-M"
+   (description "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C")
+   (family "CON")
+   (package "MR30PWM")
+   (attribute "Datasheet Link" "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf")
+   (attribute "Geometry.Height" "5.3mm")
+   (attribute "TME Electronic Components Part Number" "")
+   (attribute "TME Electronic Components Price/Stock" "")
+   (attribute "Manufacturer_Name" "Amass")
+   (attribute "Manufacturer_Part_Number" "MR30PW-M")
+   (gate
+    (symbol "MR30PW-M")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "MH1" 4 PS)
+    (pin "MH2" 5 PS)
+   )
+  )
+  (symbol "MR30PW-M"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MR30PWM"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.5 13)
+      (pt -9.5 13)
+      (pt -9.5 4)
+      (pt 2.5 4)
+      (pt 2.5 13))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 5.2 14)
+      (pt -12.2 14)
+      (pt -12.2 -2.275)
+      (pt 5.2 -2.275)
+      (pt 5.2 14))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.5 11.1)
+      (pt 4.2 11.1)
+      (pt 4.2 8.9)
+      (pt 2.5 8.9))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -9.5 11.1)
+      (pt -11.2 11.1)
+      (pt -11.2 8.9)
+      (pt -9.5 8.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.5 4)
+      (pt -9.5 4)
+      (pt -9.5 8.9)
+      (pt -11.2 8.9)
+      (pt -11.2 11.1)
+      (pt -9.5 11.1)
+      (pt -9.5 13)
+      (pt 2.5 13)
+      (pt 2.5 11.1)
+      (pt 4.2 11.1)
+      (pt 4.2 8.9)
+      (pt 2.5 8.9)
+      (pt 2.5 4)
+      (pt -3.5 4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -1.8)
+      (arc (pt 0.000 -1.800) (pt 0.050 -1.800) (pt -0.050 -1.700) (start 180.0) (sweep -90.0))
+      (pt 0 -1.7)
+      (arc (pt 0.000 -1.700) (pt 0.050 -1.800) (pt -0.050 -1.700) (start 180.0) (sweep 90.0))
+      (pt 0 -1.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -3.500 0.000) (padstack 0))
+   (leg 3 (pt -7.000 0.000) (padstack 0))
+   (leg 4 (pt -10.000 10.000) (padstack 4))
+   (leg 5 (pt 3.000 10.000) (padstack 5))
+   (padstack 0
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.550))
+    (pad (layer INNER) (round 2.550))
+    (pad (layer BCOP) (round 2.550))
+   )
+   (padstack 1
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (square 2.550))
+    (pad (layer INNER) (round 2.550))
+    (pad (layer BCOP) (square 2.550))
+   )
+   (padstack 4
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 5
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+  )
+ )
+)

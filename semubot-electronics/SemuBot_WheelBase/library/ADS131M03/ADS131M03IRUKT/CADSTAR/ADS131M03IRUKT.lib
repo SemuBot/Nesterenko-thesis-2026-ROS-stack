@@ -1,0 +1,16 @@
+.ADS131M03IRUKT :1 ;Analog to Digital Converters - ADC 24-bit, 32-kSPS, 3-channel, simultaneous-sampling, delta-sigma ADC 20-WQFN -40 to 125
+QFN40P300X300X80-21N-D
+*STM IC
+*NGS
+*PLB 1="AIN0P" 2="AIN0N" 3="AIN1N" 4="AIN1P" 5="AIN2P" 6="AIN2N" 7="NC_1" 8="NC_2" 9="'SYNC '/ 'RESET'" 10="'CS'" 11="'DRDY'" 12="SCLK" 13="DOUT" 14="DIN" 15="CLKIN" 16="CAP" 17="DGND" 18="DVDD" 19="AVDD" 20="AGND" 21="EP"
+*MXP 21
+*DFN ADS131M03IRUKT
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS131M03IRUKT)
+~!Link Datasheet (https://www.ti.com/lit/gpn/ads131m03)
+~!Height (0.8mm)
+~!3D_Model (ADS131M03IRUKT)
+ADS131M03IRUKT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

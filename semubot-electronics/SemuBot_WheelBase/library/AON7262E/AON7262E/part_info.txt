@@ -1,0 +1,9 @@
+Manufacturer=Alpha & Omega Semiconductors
+PartNumber=AON7262E
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=11
+Version=1.4
+Released=2022-11-30 10:01:47
+Downloaded=2025-10-20 18:21:06
+3D=Y

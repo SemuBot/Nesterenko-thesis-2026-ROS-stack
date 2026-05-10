@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ADS131M03IRUKT
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=1.1
+Released=2021-06-12 10:15:44
+Downloaded=2026-01-27 18:46:29
+3D=Y

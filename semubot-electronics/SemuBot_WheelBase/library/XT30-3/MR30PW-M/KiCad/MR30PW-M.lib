@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MR30PW-M
+#/8971494/1257230/2.50/5/3/Connector
+DEF MR30PW-M J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "MR30PW-M" 750 200 50 H V L CNN
+F2 "MR30PWM" 750 100 50 H I L CNN
+F3 "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf" 750 0 50 H I L CNN
+F4 "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C" 750 -100 50 H I L CNN "Description"
+F5 "5.3" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "TME Electronic Components Part Number"
+F7 "" 750 -400 50 H I L CNN "TME Electronic Components Price/Stock"
+F8 "Amass" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MR30PW-M" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X MH1 4 900 0 200 L 50 50 0 0 P
+X MH2 5 900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

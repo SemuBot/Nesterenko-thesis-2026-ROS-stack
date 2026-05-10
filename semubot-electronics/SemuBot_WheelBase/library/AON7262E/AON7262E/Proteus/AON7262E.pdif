@@ -1,0 +1,176 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AON7262E"
+   (description "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)")
+   (family "TRX")
+   (package "AON7262E")
+   (attribute "Datasheet Link" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf")
+   (attribute "Geometry.Height" "0.9mm")
+   (attribute "TME Electronic Components Part Number" "")
+   (attribute "TME Electronic Components Price/Stock" "")
+   (attribute "Manufacturer_Name" "Alpha & Omega Semiconductors")
+   (attribute "Manufacturer_Part_Number" "AON7262E")
+   (gate
+    (symbol "AON7262E")
+    (pin "S_1" 1 PS)
+    (pin "S_2" 2 PS)
+    (pin "S_3" 3 PS)
+    (pin "G" 4 PS)
+    (pin "D_1" 5 PS)
+    (pin "D_2" 6 PS)
+    (pin "D_3" 7 PS)
+    (pin "D_4" 8 PS)
+    (pin "D_5" 9 PS)
+    (pin "D_6" 10 PS)
+    (pin "D_7" 11 PS)
+   )
+  )
+  (symbol "AON7262E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AON7262E"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.605 2.65)
+      (pt 2.605 2.65)
+      (pt 2.605 -2.65)
+      (pt -2.605 -2.65)
+      (pt -2.605 2.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.975 -2.2)
+      (arc (pt -0.975 -2.200) (pt -1.025 -2.200) (pt -0.925 -2.100) (start 180.0) (sweep -90.0))
+      (pt -0.975 -2.1)
+      (arc (pt -0.975 -2.100) (pt -1.025 -2.200) (pt -0.925 -2.100) (start 180.0) (sweep 90.0))
+      (pt -0.975 -2.2))))
+   (leg 1 (pt -0.975 -1.400) (padstack 0))
+   (leg 2 (pt -0.325 -1.400) (padstack 0))
+   (leg 3 (pt 0.325 -1.400) (padstack 0))
+   (leg 4 (pt 0.975 -1.400) (padstack 0))
+   (leg 5 (pt 0.975 1.500) (padstack 5))
+   (leg 6 (pt 0.325 1.500) (padstack 6))
+   (leg 7 (pt -0.325 1.500) (padstack 7))
+   (leg 8 (pt -0.975 1.500) (padstack 8))
+   (leg 9 (pt 0.000 0.360) (padstack 9))
+   (leg 10 (pt 1.415 0.000) (padstack 10))
+   (leg 11 (pt -1.415 0.000) (padstack 11))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.350 0.500 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 1.980 2.450 0 0 0.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 0.380 0.430 0 0 90.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 0.380 0.430 0 0 90.000))
+   )
+   (model "AON7262E.stp"
+    (euler 90 0 90)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

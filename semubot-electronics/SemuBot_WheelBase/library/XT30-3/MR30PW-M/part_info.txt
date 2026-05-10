@@ -1,0 +1,9 @@
+Manufacturer=Amass
+PartNumber=MR30PW-M
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=2.3
+Released=2019-12-31 10:38:08
+Downloaded=2025-10-17 15:18:36
+3D=N

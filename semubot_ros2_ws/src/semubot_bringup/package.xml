@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>semubot_bringup</name>
+  <version>0.1.0</version>
+  <description>semubot_bringup package for SemuBot ROS 2 stack.</description>
+  <maintainer email="semubot@todo.todo">semubot</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>semubot_arm</depend>
+  <depend>semubot_behavior</depend>
+  <depend>semubot_description</depend>
+  <depend>semubot_face</depend>
+  <depend>semubot_hardware</depend>
+  <depend>semubot_navigation</depend>
+  <depend>semubot_system_monitor</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>xacro</depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

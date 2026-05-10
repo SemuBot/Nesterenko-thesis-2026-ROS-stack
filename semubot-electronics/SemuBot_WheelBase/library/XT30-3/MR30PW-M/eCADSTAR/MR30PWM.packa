@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MR30PW-M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-27-06:19:53)
+    (mountForm default
+        (footprintRef "MR30PWM")
+        (spec "System")
+    )
+)

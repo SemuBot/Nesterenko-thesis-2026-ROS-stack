@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MR30PWM"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MR30PWM")
+        (spec "default")
+    )
+)

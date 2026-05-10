@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADS131M03IRUKT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ADS131M03IRUKT" (!) = "", "QFN40P300X300X80-21N-D", "Quad Flat No-Lead", "", "", "Analog to Digital Converters - ADC 24-bit, 32-kSPS, 3-channel, simultaneous-sampling, delta-sigma ADC 20-WQFN -40 to 125", "https://www.ti.com/lit/gpn/ads131m03", "0.8 mm"
+END_PART
+
+END.

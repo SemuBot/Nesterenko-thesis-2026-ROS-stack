@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AON7262E
+D N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)
+K
+F https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf
+$ENDCMP
+#
+#End Doc Library

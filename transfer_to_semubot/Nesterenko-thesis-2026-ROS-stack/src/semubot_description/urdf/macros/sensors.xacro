@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="semubot_sensors" params="parent">
+    <!-- Camera placeholder frame; update pose once camera mount is validated. -->
+    <link name="camera_link"/>
+    <joint name="torso_to_camera" type="fixed">
+      <parent link="${parent}"/>
+      <child link="camera_link"/>
+      <origin xyz="0.10 0 0.32" rpy="0 0 0"/>
+    </joint>
+
+    <link name="microphone_array_link"/>
+    <joint name="torso_to_microphone_array" type="fixed">
+      <parent link="${parent}"/>
+      <child link="microphone_array_link"/>
+      <origin xyz="0.05 0 0.30" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Mock laser frame for Nav2 readiness tests. -->
+    <link name="laser_frame"/>
+    <joint name="base_to_laser" type="fixed">
+      <parent link="base_link"/>
+      <child link="laser_frame"/>
+      <origin xyz="0.12 0 0.18" rpy="0 0 0"/>
+    </joint>
+  </xacro:macro>
+</robot>

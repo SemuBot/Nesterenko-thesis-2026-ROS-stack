@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MR30PW-M
+D Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C
+K
+F https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf
+$ENDCMP
+#
+#End Doc Library

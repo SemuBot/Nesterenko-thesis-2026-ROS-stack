@@ -1,0 +1,16 @@
+.DRV8353FSRTAR :1 ;Gate Drivers 102-V max 3-phase Functional Safety Quality-Managed smart gate driver with 3x CSA 40-WQFN -40 to 125
+QFN50P600X600X80-41N-D
+*STM IC
+*NGS
+*PLB 1="CPL" 2="CPH" 3="VM" 4="VDRAIN" 5="VCP" 6="GHA" 7="SHA" 8="GLA" 9="SPA" 10="SNA" 11="SNB" 12="SPB" 13="GLB" 14="SHB" 15="GHB" 16="GHC" 17="SHC" 18="GLC" 19="SPC" 20="SNC" 21="SOC" 22="SOB" 23="SOA" 24="VREF" 25="AGND" 26="NFAULT" 27="SDO" 28="SDI" 29="SCLK" 30="NSCS" 31="ENABLE" 32="INHA" 33="INLA" 34="INHB" 35="INLB" 36="INHC" 37="INLC" 38="DVDD" 39="GND_1" 40="VGLS" 41="GND_2"
+*MXP 41
+*DFN DRV8353FSRTAR
+~!Mouser Part Number (595-DRV8353FSRTAR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8353FSRTAR?qs=hd1VzrDQEGj9xu7LrY%252BpOw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DRV8353FSRTAR)
+~!Link Datasheet (https://www.ti.com/lit/gpn/drv8353f)
+~!Height (0.8mm)
+~!3D_Model (DRV8353FSRTAR)
+DRV8353FSRTAR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 

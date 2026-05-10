@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DRV8353FSRTAR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DRV8353FSRTAR" (!) = "", "QFN50P600X600X80-41N-D", "Quad Flat No-Lead", "595-DRV8353FSRTAR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8353FSRTAR?qs=hd1VzrDQEGj9xu7LrY%252BpOw%3D%3D", "Gate Drivers 102-V max 3-phase Functional Safety Quality-Managed smart gate driver with 3x CSA 40-WQFN -40 to 125", "https://www.ti.com/lit/gpn/drv8353f", "0.8 mm"
+END_PART
+
+END.

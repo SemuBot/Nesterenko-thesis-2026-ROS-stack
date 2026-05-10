@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS131M03IRUKT
+D Analog to Digital Converters - ADC 24-bit, 32-kSPS, 3-channel, simultaneous-sampling, delta-sigma ADC 20-WQFN -40 to 125
+K
+F https://www.ti.com/lit/gpn/ads131m03
+$ENDCMP
+#
+#End Doc Library

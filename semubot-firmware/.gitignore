@@ -1,0 +1,9 @@
+# Ignore all Release, Drivers and Debug folders
+motors/**/**/Release
+motors/**/**/Debug
+
+build/
+install/
+log/
+.vscode/
+
